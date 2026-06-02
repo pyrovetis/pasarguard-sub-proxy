@@ -19,11 +19,11 @@ A simple PHP reverse proxy that forwards Pasarguard subscription links to anothe
 
 Set your source subscription endpoint here:
 
-only the base url and without `/` at the end
-
 ```php
 const UPSTREAM = 'https://your-domain.com';
 ```
+
+Use only the base URL (no trailing `/`).
 
 ---
 
